@@ -82,11 +82,11 @@ bool Game::loadMedia()
 	//Loading success flag
 	bool success = true;
 
-	Drawing::assets_down = loadTexture("Assets_D.png");
-    Drawing::assets_left = loadTexture("Assets_L.png");
-    Drawing::assets_right = loadTexture("Assets_R.png");
-    Drawing::assets_up = loadTexture("Assets_U.png");
-    Drawing::gTexture = loadTexture("Level_1.png");
+	Drawing::assets_down = loadTexture("Assets/Assets_D.png");
+    Drawing::assets_left = loadTexture("Assets/Assets_L.png");
+    Drawing::assets_right = loadTexture("Assets/Assets_R.png");
+    Drawing::assets_up = loadTexture("Assets/Assets_U.png");
+    Drawing::gTexture = loadTexture("Assets/Level_1.png");
 
 
     if(Drawing::assets_down==NULL || Drawing::assets_left == NULL || Drawing::assets_right == NULL || Drawing::assets_up == NULL || Drawing::gTexture == NULL )
